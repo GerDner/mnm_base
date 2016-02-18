@@ -8,7 +8,7 @@ db:
 web:
   image: million12/typo3-neos
   ports:
-    - '8080:80'
+    - '80:80'
   links:
     - db:db
   environment:

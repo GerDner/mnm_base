@@ -15,17 +15,23 @@
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
     },
+    "repositories": [
+        {
+            "type":"vcs",
+            "url":"./Packages/Sites/Bucher.Maltnmore"
+        }
+    ],
     "require": {
         "typo3/neos": "~2.1.0",
         "typo3/neos-nodetypes": "~2.1.0",
-        "typo3/neosdemotypo3org": "~2.1.0",
         "typo3/neos-kickstarter": "~2.1.0",
         "typo3/neos-seo": "@dev",
         "typo3/imagine": "@dev",
         "typo3/twitter-bootstrap": "@dev",
         "typo3/form": "@dev",
         "typo3/setup": "@dev",
-        "flowpack/neos-frontendlogin": "@dev"
+        "flowpack/neos-frontendlogin": "@dev",
+        "bucher/malntmore": "dev-master"
     },
     "require-dev": {
         "typo3/buildessentials": "3.1.x-dev",
