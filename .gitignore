@@ -3,9 +3,10 @@
 /Build/BuildEssentials
 /Build/Reports
 /Build/Resources
-/Configuration/
 /Data/
-/Packages/
+/Packages/Framework
+/Packages/Libraries
+/Packages/Application
 /Web/
 /bin/
 /Readme.txt
