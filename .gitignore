@@ -5,16 +5,14 @@
 /Build/Resources
 /Configuration/**/Include*
 /Data/
-/Packages/Framework
-/Packages/Libraries
-/Packages/Application
+/Packages
 /Web/
 /bin/
 /Readme.txt
 /Upgrading.txt
 /flow
 /flow.bat
-
+.idea
 # ignore the downloaded selenium server, config and the selenium
 # temporary directory (which starts with a quote, do not ask why...)
 /Tests/Selenium/settings.xml
