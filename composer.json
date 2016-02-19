@@ -17,8 +17,8 @@
     },
     "repositories": [
         {
-            "type":"vcs",
-            "url":"./Packages/Sites/Bucher.Maltnmore"
+            "type":"vcs", 
+            "url":"https://github.com/GerDner/mnm_website.git"
         }
     ],
     "require": {
@@ -31,7 +31,7 @@
         "typo3/form": "@dev",
         "typo3/setup": "@dev",
         "flowpack/neos-frontendlogin": "@dev",
-        "bucher/malntmore": "dev-master"
+        "bucher/maltnmore": "dev-master"
     },
     "require-dev": {
         "typo3/buildessentials": "3.1.x-dev",

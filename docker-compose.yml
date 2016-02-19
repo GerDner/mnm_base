@@ -16,6 +16,7 @@ web:
     T3APP_BUILD_REPO_URL: "https://github.com/GerDner/mnm_base.git"
     T3APP_BUILD_BRANCH: master 
     T3APP_NEOS_SITE_PACKAGE: Bucher.Maltnmore
+    T3APP_ALWAYS_DO_PULL: 'true'
 
 dev:
   image: million12/php-app-ssh

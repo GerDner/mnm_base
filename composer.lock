@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ac68ce983429555388e064096784b299",
-    "content-hash": "d7d0d875277973df56ae17f711f4caf5",
+    "hash": "08920213e7b3999847586826646f878a",
+    "content-hash": "79f573afcc4883ead723191fc9e80c4a",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -46,6 +46,40 @@
                 "transliterator"
             ],
             "time": "2015-09-28 16:26:35"
+        },
+        {
+            "name": "bucher/maltnmore",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GerDner/mnm_website.git",
+                "reference": "16a519451695152d967bbe214203685a92b08be9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GerDner/mnm_website/zipball/16a519451695152d967bbe214203685a92b08be9",
+                "reference": "16a519451695152d967bbe214203685a92b08be9",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/neos": "*",
+                "typo3/neos-nodetypes": "*"
+            },
+            "suggest": {
+                "typo3/neos-seo": "*"
+            },
+            "type": "typo3-flow-site",
+            "autoload": {
+                "psr-0": {
+                    "Bucher\\Maltnmore": "Classes"
+                }
+            },
+            "description": "Add description here",
+            "support": {
+                "source": "https://github.com/GerDner/mnm_website/tree/master",
+                "issues": "https://github.com/GerDner/mnm_website/issues"
+            },
+            "time": "2016-02-19 08:53:00"
         },
         {
             "name": "doctrine/annotations",
@@ -1407,12 +1441,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/form.git",
-                "reference": "1069afa97837dda073c45890aea4665de8b96a12"
+                "reference": "6fc86a940b97de2f0d7fdcc77e93e24f6f3f186f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/form/zipball/1069afa97837dda073c45890aea4665de8b96a12",
-                "reference": "1069afa97837dda073c45890aea4665de8b96a12",
+                "url": "https://api.github.com/repos/neos/form/zipball/6fc86a940b97de2f0d7fdcc77e93e24f6f3f186f",
+                "reference": "6fc86a940b97de2f0d7fdcc77e93e24f6f3f186f",
                 "shasum": ""
             },
             "require": {
@@ -1429,7 +1463,7 @@
                 "LGPL-3.0+"
             ],
             "description": "Extensible and flexible API for building web forms",
-            "time": "2015-12-17 09:28:52"
+            "time": "2016-02-19 07:50:48"
         },
         {
             "name": "typo3/imagine",
@@ -1638,20 +1672,20 @@
         },
         {
             "name": "typo3/neos-seo",
-            "version": "1.0.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos-seo.git",
-                "reference": "443771943b6d82cc422a1e170be9b7fc1bb3e0ec"
+                "reference": "4e06ccad404fb0380702b93d14b7aac00a67fa37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-seo/zipball/443771943b6d82cc422a1e170be9b7fc1bb3e0ec",
-                "reference": "443771943b6d82cc422a1e170be9b7fc1bb3e0ec",
+                "url": "https://api.github.com/repos/neos/neos-seo/zipball/4e06ccad404fb0380702b93d14b7aac00a67fa37",
+                "reference": "4e06ccad404fb0380702b93d14b7aac00a67fa37",
                 "shasum": ""
             },
             "require": {
-                "typo3/neos": "~2.0"
+                "typo3/neos": "*"
             },
             "type": "typo3-flow-package",
             "autoload": {
@@ -1664,40 +1698,7 @@
                 "GPL-3.0+"
             ],
             "description": "SEO configuration and tools for TYPO3 Neos",
-            "time": "2015-12-18 22:47:27"
-        },
-        {
-            "name": "typo3/neosdemotypo3org",
-            "version": "2.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/neos/neosdemotypo3org.git",
-                "reference": "031a69acff8f780845b4ed70d238b3fe105aef50"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/neos/neosdemotypo3org/zipball/031a69acff8f780845b4ed70d238b3fe105aef50",
-                "reference": "031a69acff8f780845b4ed70d238b3fe105aef50",
-                "shasum": ""
-            },
-            "require": {
-                "flowpack/neos-frontendlogin": "~2.0",
-                "typo3/neos": "~2.1.0",
-                "typo3/neos-nodetypes": "~2.1.0",
-                "typo3/neos-seo": "~1.0"
-            },
-            "type": "typo3-flow-site",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\NeosDemoTypo3Org": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "description": "Site package for the Neos Demo Site",
-            "time": "2015-12-22 06:50:24"
+            "time": "2015-12-21 13:12:43"
         },
         {
             "name": "typo3/party",
@@ -3014,6 +3015,7 @@
         "typo3/form": 20,
         "typo3/setup": 20,
         "flowpack/neos-frontendlogin": 20,
+        "bucher/maltnmore": 20,
         "typo3/buildessentials": 20,
         "flowpack/behat": 20
     },
