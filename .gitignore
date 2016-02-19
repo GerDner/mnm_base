@@ -3,7 +3,7 @@
 /Build/BuildEssentials
 /Build/Reports
 /Build/Resources
-/Configuration/**/*.php
+/Configuration/**/Include*
 /Data/
 /Packages/Framework
 /Packages/Libraries
